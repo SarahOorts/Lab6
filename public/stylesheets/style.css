@@ -11,14 +11,47 @@ a {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  list-style-type: none;
 }
 
 .row-columns{
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+  font-size: 20px;
 }
 
-.row-columns ul{
+.row-columns li{
+  list-style-type: none;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+
+.teams li{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 20px;
+  font-size: 20px;
+  margin: 15px;
+}
+
+.teams input{
+  margin: 5px;
+}
+
+h1, p{
+  text-align: center;
+}
+
+.button{
+  text-align: center;
+  color:whitesmoke;
+  background-color: crimson;
+  border:white solid 2px;
+  padding: 10px;
+  padding-left: 840px;
+  padding-right: 840px;
+  font-size: 20px;
+  border-radius: 10px;
 }
