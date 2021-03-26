@@ -1,13 +1,16 @@
-function updatestats(req, res) {
+function updateStats(req, res) {
     res.json({
         status: "succes",
-        message:"",
+        message:"hi",
     });
 }
 
 function statistics(req,res) {
     res.json({
         status: "succes",
-        message:"",
+        message:"hiya",
     });
 }
+
+module.exports.updateStats = updateStats;
+module.exports.statistics = statistics;
