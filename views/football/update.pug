@@ -1,20 +1,22 @@
 extends ../layout
 
 block content
-  h1 FIFA world ranking
-  p Update the statistics of the FIFA world ranking
+    h1 FIFA world ranking
+    p Update the statistics of the FIFA world ranking
 
-  ul(class="teams")
-    li(class="Belgium") Belgium
-        input(type="text" name="Total points" placeholder="Total points")
-        //- input(type="submit" class="button")
+    ul(class="teams")
+        li(class="Belgium") Belgium
+            input(type="text" name="Belgium's total points" placeholder="Total points")
+            //- input(type="submit" class="button")
 
-    li(class="France") France
-        input(type="text" name="Total points" placeholder="Total points")
-        //- input(type="submit" class="button")
+        li(class="France") France
+            input(type="text" name="France's total points" placeholder="Total points")
+            //- input(type="submit" class="button")
 
-    li(class="Brazil") Brazil
-        input(type="text" name="Total points" placeholder="Total points")
-        //- input(type="submit" class="button")
+        li(class="Brazil") Brazil
+            input(type="text" name="Brazil's total points" placeholder="Total points")
+            //- input(type="submit" class="button")
 
+    script(src="/primus/primus.js") 
+    script(src="/javascripts/update.js")
     
