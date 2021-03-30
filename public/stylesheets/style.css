@@ -2,11 +2,17 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   margin: 50px;
+  color: white;
+}
+
+div{
+  background-color: rgba(233, 45, 45, 0.80);
+  padding: 10px;
 }
 
 h1{
   text-align: center;
-  font-size: 30px;
+  font-size: 46px;
 }
 
 p{
@@ -24,7 +30,7 @@ a {
   grid-template-columns: 1fr 1fr 1fr;
   list-style-type: none;
   margin-top: 30px;
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 600;
   text-align: center;
   padding-left: 0px;
@@ -34,7 +40,7 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  font-size: 20px;
+  font-size: 26px;
   justify-content: center;
   text-align: center;
   padding-left: 0px;
@@ -58,20 +64,19 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 28px;
   margin: 15px;  
   text-align: center;
 }
 
 .teams input{
   margin: 5px;
-  /* width: 400px; */
   text-align: center;
   margin-left: 200px;
   margin-right: 200px;
   padding: 10px;
   border-radius: 5px;
-  border: red solid 2px;
+  border: black solid 2px;
 }
 
 /* .button{
@@ -86,3 +91,7 @@ a {
   border-radius: 10px;
   text-align: center;
 } */
+
+.bkg{
+  background-image: url(../images/pexels-pixabay-46798.jpg);
+}
