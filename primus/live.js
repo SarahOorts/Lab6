@@ -4,8 +4,8 @@ function go(server){
     let primus = new Primus(server, {/* options */});
     //primus.save(__dirname +'/primus.js');
 
-    primus.on("action", function (spark){
-        console.log("we have an action");
+    primus.on("connection", function (spark){
+        console.log("we have a spark");
         spark.on("data", (data) => {
             console.log(data);
             primus.write(data);
